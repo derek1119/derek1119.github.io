@@ -133,4 +133,12 @@ splitView는 [0]은 master, [1] detail 이다.
 Navigation controller은 [0]이 root이고 나머지는 그 순서에 따라 stack으로 쌓인다. 
 값을 set(할당) 할 수 있지만 값을 가져오기(get)만 할 것이다. 
 
-그렇다면 어떻게  
+그렇다면 만약 SplitViewController 내부에 있다면 들어와 있는 SplitViewController에 어떻게 접근할까?  
+그 답은 UIViewController는 중요한 세가지 프로퍼티가 존재하는데 이는 tapBarController, splitViewController, navigationController이다. 이 3가지는 모두 옵셔널이다.  
+  
+두 가지의 viewController에 들어가 있는 것도 가능하다. 
+
+### MVC들 연결하기 
+
+SplitViewController의 경우 SplitViewController를 불러와서 master와 detail뷰로 control을 누른 채 드래그 하면 연결이 된다.   
+
