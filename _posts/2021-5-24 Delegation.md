@@ -1,3 +1,7 @@
+---
+layout : single
+title : Delegation
+---
 # Delegation
 
 프로토콜을 사용하는 중요한 예시로는 델리게이션이 있다. ![image-20210524220610836](/Users/shhong/Library/Application Support/typora-user-images/image-20210524220610836.png)
