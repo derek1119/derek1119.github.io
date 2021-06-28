@@ -1,3 +1,7 @@
+---
+layout : single
+title : Protocols
+---
 # Protocols
 
 * 프로토콜은 API를 더욱 간결하게 표한하는 방법이다.
