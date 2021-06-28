@@ -1,4 +1,8 @@
-# MVC
+---
+layout : single
+title : MVC
+---
+
 ## MVC란 무엇인가
 Model : application이 무엇을 하는지 뜻함, 화면에 어떻게 그려지는 것과는 관계 없음 (계산기에서는 계산을 하는 부분) What
 
