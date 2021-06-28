@@ -1,3 +1,7 @@
+---
+layout : single
+title : Closures
+---
 # Closures
 
 클로저는 인라인 함수(inline function)이다. 클로저에서 흥미로운 점은 이것 역시 힙 메모리 안에 저장된다는 것이다. 클로저는 기본적으로 참조(reference) 타입이다. 왜냐하면 클로저는 단지 함수고 함수는 스위프트에서 일반 타입이다.  
