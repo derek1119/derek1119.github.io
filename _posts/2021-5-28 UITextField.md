@@ -1,3 +1,7 @@
+---
+layout : single
+title : UITextField
+---
 # UITextField
 
 * UILabel 같지만 편집이 가능함
