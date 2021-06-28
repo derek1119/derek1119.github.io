@@ -1,3 +1,8 @@
+---
+layout : single
+title : Core Data and UITableView
+---
+
 # Core Data and UITableView
 
 ### NSFetchedResultsController
