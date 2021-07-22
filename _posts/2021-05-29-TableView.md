@@ -3,7 +3,7 @@ layout : single
 title : UITableView
 ---
 
-<img width="1003" alt="image-20210529101508236" src="https://user-images.githubusercontent.com/78390837/126594167-da2d9adc-d8ee-4c2d-b8e9-94be2aedec4c.png">
+<img width="1003" alt="image-20210529101508236" src="https://user-images.githubusercontent.com/78390837/126594167-da2d9adc-d8ee-4c2d-b8e9-94be2aedec4c.png" style="zoom:67%;" >
 
 plain 스타일은 그냥 항목들을 쭉 나열한 것이고 섹션으로 묶을 수도 있지만 보통은 하나의 긴 목록이다. 오른쪽은 grouped 스타일인데 TableView 안의 섹션이 더욱 분명하게 구분되어 있는 형태이다. 섹션별로 다른 데이터가 들어가는 형태이다. 일반적으로 plain 스타일에는 Dynamic(동적) 데이터(아이템 수가 몇 개가 될지 모르는 데이터들)를 사용하며 반면에 Grouped 스타일은 Static(정적) 데이터를 사용한다. 몇 개의 목록일지 알고 있고 각 줄에 어떤 데이터가 들어갈지 확실히 알고 있는 경우이다. 
 
@@ -11,7 +11,7 @@ UITableView도 View의 일종이고 UIView의 하위뷰이다. 정확하게는 U
 
 ### 테이블뷰의 용어들 
 
-<img width="502" alt="image-20210529105544979" src="https://user-images.githubusercontent.com/78390837/126594171-1c79358f-7b03-49f8-b868-d679c89baba7.png" style="zoom:50%;" />
+<img width="502" alt="image-20210529105544979" src="https://user-images.githubusercontent.com/78390837/126594171-1c79358f-7b03-49f8-b868-d679c89baba7.png"  />
 
 * Table Header
   TableView의 맨 위에 있는 영역이다. 검색 창 같은 것을 넣어줄 수 있다. 
@@ -25,7 +25,7 @@ UITableView도 View의 일종이고 UIView의 하위뷰이다. 정확하게는 U
 
 * Table Cell
 
-<img width="474" alt="image-20210529110809045" src="https://user-images.githubusercontent.com/78390837/126594175-38f14a58-2915-45e1-93bd-8d3ba6bbddce.png">
+<img width="474" alt="image-20210529110809045" src="https://user-images.githubusercontent.com/78390837/126594175-38f14a58-2915-45e1-93bd-8d3ba6bbddce.png"  >
   Cell도 UIView이다. 정확히는 UITableViewCell이라고 부르는게 정확하다. UIView의 서브클래스이다. 특정한 Row에 데이터를 가져와서 보여주는 역할이다. 
 
 * Sections of Not
@@ -35,13 +35,13 @@ UITableView도 View의 일종이고 UIView의 하위뷰이다. 정확하게는 U
   미리 설정된 타입 4가지와 커스텀한 타입으로 되어있다. 
 
   * Subtitle(UITableViewCellStyle.subtitle)
-  <img width="209" alt="image-20210529162013251" src="https://user-images.githubusercontent.com/78390837/126594177-e16ca0e4-2fff-4075-9e7f-9302db043f0e.png">
+  <img width="209" alt="image-20210529162013251" src="https://user-images.githubusercontent.com/78390837/126594177-e16ca0e4-2fff-4075-9e7f-9302db043f0e.png" style="zoom: 67%;" >
   * Basic(.default)
-  <img width="198" alt="image-20210529162037948" src="https://user-images.githubusercontent.com/78390837/126594178-f72ee6b0-2323-44d1-b93f-77cdcf329f15.png">
+  <img width="198" alt="image-20210529162037948" src="https://user-images.githubusercontent.com/78390837/126594178-f72ee6b0-2323-44d1-b93f-77cdcf329f15.png" style="zoom: 67%;" >
   * Right Detail(.value1)
-  <img width="215" alt="image-20210529162100340" src="https://user-images.githubusercontent.com/78390837/126594183-9ab277aa-1aad-4174-bb1b-ee5d242fc21a.png">
+  <img width="215" alt="image-20210529162100340" src="https://user-images.githubusercontent.com/78390837/126594183-9ab277aa-1aad-4174-bb1b-ee5d242fc21a.png" style="zoom:67%;" >
   * Left Detail(.value2)
-  <img width="199" alt="image-20210529162117798" src="https://user-images.githubusercontent.com/78390837/126594185-058a4837-e775-46f9-b808-23b47ac7f87f.png">
+  <img width="199" alt="image-20210529162117798" src="https://user-images.githubusercontent.com/78390837/126594185-058a4837-e775-46f9-b808-23b47ac7f87f.png" style="zoom:67%;" >
   * Custom
 
   
